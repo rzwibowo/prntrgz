@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\labelprint]
+@="URL:Label Print Protocol"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\labelprint\shell]
+
+[HKEY_CLASSES_ROOT\labelprint\shell\open]
+
+[HKEY_CLASSES_ROOT\labelprint\shell\open\command]
+@="\"C:\\prntrgz\\runner.bat\" \"%1\""
+

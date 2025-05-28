@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.5.final using JasperReports Library version 6.20.5-3efcf2e67f959db3888d79f73dde2dbd7acb4f8e  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="labelGizi" pageWidth="178" pageHeight="36" columnWidth="178" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="c98542e5-7fd4-455d-acbc-49a934853570">
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="nama" class="java.lang.String"/>
+	<field name="tglLahir" class="java.lang.String"/>
+	<field name="noRm" class="java.lang.String"/>
+	<field name="ruang" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="36" splitType="Stretch">
+			<staticText>
+				<reportElement x="3" y="0" width="39" height="11" uuid="fec91b34-8b47-4f1a-bead-c8ad9e1e4e67"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Nama]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="3" y="12" width="39" height="11" uuid="84ac65e2-b718-4fab-8ca7-b32f2eb5528d"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Tgl. Lahir]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="3" y="24" width="39" height="11" uuid="99d34c3f-343f-485a-9516-4cf419a54a09"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[No. RM]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="42" y="0" width="6" height="11" uuid="ab97f97a-69ee-43b5-a43a-a12baae6ce87"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="42" y="12" width="6" height="11" uuid="86d80817-697c-4e0c-88d1-97fb11389d4c"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="42" y="24" width="6" height="11" uuid="d39a3fe1-7583-4bad-a032-dc20b01e1845"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="48" y="0" width="127" height="11" uuid="e7db8d39-cc8f-418d-b867-227409984511"/>
+				<textElement>
+					<font size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nama}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="48" y="12" width="127" height="11" uuid="6caa580d-fa12-44de-bf51-e0dbf3ae810b"/>
+				<textElement>
+					<font size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tglLahir}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="48" y="24" width="42" height="11" uuid="31147d14-7ecf-4bdd-bad5-77a6d8ee5442"/>
+				<textElement>
+					<font size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{noRm}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="93" y="24" width="82" height="11" uuid="96e434af-fe47-47bd-a8d8-c5e837ade964"/>
+				<textElement>
+					<font size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ruang}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

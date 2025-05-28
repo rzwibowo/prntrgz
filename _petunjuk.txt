@@ -1,0 +1,20 @@
+langkah-langkah:
+
+1. instal java versi 17 https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
+
+2. extract ke C:\prntrgz
+
+3. klik 2x pada C:\prntrgz\regprntrgz.reg
+
+4. setting PrinterName pada C:\prntrgz\cfg.config
+
+5. coba print dari aplikasi atau coba panggil url ini labelprint://lb/Sukimin/20-01-1999/123456/Ash%20Shofa di browser
+
+---> centang always allow http://[alamat_aplikasi_selain] to open this type in the associated app supaya print berikutnya langsung ngeprint
+
+contoh url:
+- print label banyak pasien
+  labelprint://lb/Sukimin!Sul%20Endro/20-01-1999!01-01-1945/123456!657687/Ash%20Shofa!Al%20Kautsar
+
+- print label 1 pasien
+  labelprint://lb/Sukimin/20-01-1999/123456/Ash%20Shofa
